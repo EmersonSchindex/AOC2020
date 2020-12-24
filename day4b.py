@@ -1,5 +1,5 @@
 file = open("day4_input.txt", "r")
-filenew = open("day4_input_new.txt", "w")
+#filenew = open("day4_input_new.txt", "w")
 
 eyecolor_list = {'amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth'}
 haircolor_list = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'}
@@ -21,7 +21,7 @@ eyear = '0'
 hgtincm = 0
 hgtinin = 0
 
-print("validate", 'pid', 'pidt', 'passportid', file=filenew)  
+#print("validate", 'pid', 'pidt', 'passportid', file=filenew)  
 
 while True:
   line = file.readline()
